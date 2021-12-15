@@ -99,7 +99,7 @@ app.delete('/todos/:id', (req, res) => {
     })
 })
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log("server is listening on port 3000");
 })
     
